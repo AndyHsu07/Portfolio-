@@ -1,0 +1,48 @@
+/* css for layout, including nav and header */
+header{
+    background-color: hsla(206, 10%, 86%, 0.487);
+    font-size: 1.5em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: hsla(205, 46%, 10%, 0.608);;
+    border: 1px solid; 
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+  }
+  nav {
+    height: 50px;
+    text-align: right;
+    margin: 5px 20px;
+    padding-top: 10px;
+    
+  }
+  nav img{
+    float: left;
+    width: 200px;
+    height: 80px;
+    
+  }
+  nav .Nav{
+    border-radius: 10px;
+    margin: 0 10px;
+    padding: 3px 10px;
+    font-size: 1.5em;
+    color: hsl(180, 10%, 65%);
+    text-decoration: none;
+    text-align: center;
+  }
+  nav .Nav:hover{
+    background-color: hsla(206, 71%, 15%, 0.608);
+    color: beige;
+  }
+  
+  footer{
+    margin: 5px auto;
+    padding: 2px 0;
+    text-align: center;
+    
+  }
+  footer p{
+    text-align: center;
+    margin: 5px auto;
+  }

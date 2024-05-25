@@ -1,0 +1,173 @@
+/* install particular font family */
+@font-face{
+  src: url(./font/PoetsenOne-Regular.ttf);
+  font-family: PoetsenOne;
+}
+@font-face{
+  src: url(./font/Roboto-Bold.ttf);
+  font-family: Roboto;
+}
+
+/* For all pages' body */
+body{
+  margin: 0 10px;
+  font-family:Roboto, PoetsenOne,Tahoma, Verdana, Geneva;
+  box-sizing: border-box;
+  background-color: hsla(200, 15%, 92%, 0.487);
+  color: rgb(67, 66, 66);
+  font-style: oblique;
+
+}
+
+/* Home Page Background image*/
+.background{
+  background-image: url(../img/background.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 90vh;
+  filter: opacity(0.6); 
+}
+
+/* Home Page Background texts */
+.background #content{
+  color: rgb(193, 196, 197);
+  width: 40%;
+  position: absolute;
+  top: 20%; left: 10%;
+  text-shadow: 5px 5px black ;
+  line-height: 1.5;
+}
+
+/* Title for all pages, excluding home page */
+.title{
+  text-align: center;
+  text-decoration: underline;
+  clear: both;
+}
+
+/* About me - photo */
+#circle-image{
+
+  width: 250px;
+  height: 250px;
+  border-radius: 50%; 
+  margin-top: 30px;
+  object-fit: cover; 
+}
+
+/* Layout of "About me" Page */
+.about{
+  text-align: center;
+  width: 80%;
+  height: 70vh;
+  border: 3px solid ;
+  border-radius: 5px;
+  box-shadow: 3px 3px 1px black;
+  background-color: hsl(0, 0%, 100%);
+  margin: 0 auto;
+}
+
+.about p{
+  text-align: center;
+  font-size: 1.3em;
+  margin: 30px 0;
+}
+
+.about a{
+ display: inline-block;
+ margin: 50px 0;
+}
+
+/* Resume Link  */
+#resume {
+  text-decoration: none;
+  background-color: hsla(155, 41%, 82%, 0.8);
+  font-weight: bold;
+  color: rgb(92, 92, 92);
+  border: 3px inset rgb(128, 128, 128);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#resume:hover{
+  color: tomato;
+}
+
+/* Layout of "Service" Page */
+.service{
+  display: flex;
+  flex-direction: column;
+}
+
+/* For different service */
+.service #container{
+  border: 3px solid;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.879);
+  margin: 40px auto;
+  width: 60%;
+  height: 300px;
+}
+/* Service title */
+.service #container h1{
+  color: rgb(48, 46, 46);
+}
+/* Service description */
+.service #container p{
+  width: 50%;
+  font-size: 1.3em;
+  margin: 30px 50px;
+}
+
+.service #container img{
+  float: right;
+  width: 400px;
+  height: 300px;
+
+}
+
+
+/* Layout of "Project" page */
+
+.Project{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 20px;
+  margin: 50px 200px; 
+  border: 2px inset black;
+  border-radius: 10px;
+  
+}
+
+/* Project categories */
+.Project #Subtitle{
+  display: block;
+  margin-bottom: 50px;
+  height: 0px;
+  flex-basis: 100%;
+  text-align: center;
+}
+
+/* Containers for each projects */
+.pj{
+  display: inline-block;
+  border: 2px solid black;
+  background-color: rgb(243, 230, 213);
+  border-radius: 5px;
+  width: 300px;
+  text-align: center;
+  flex: 0 0 auto;
+  margin: 40px 0;
+}
+
+.pj p{
+  width: 80%;
+  margin: 10px auto;
+  text-align: left;
+}
+.pj img{
+  width: 250px;
+  height: 200px;
+}
