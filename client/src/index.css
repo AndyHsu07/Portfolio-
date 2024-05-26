@@ -1,10 +1,10 @@
 /* install particular font family */
 @font-face{
-  src: url(./font/PoetsenOne-Regular.ttf);
+  src: url(/font/PoetsenOne-Regular.ttf);
   font-family: PoetsenOne;
 }
 @font-face{
-  src: url(./font/Roboto-Bold.ttf);
+  src: url(/font/Roboto-Bold.ttf);
   font-family: Roboto;
 }
 
