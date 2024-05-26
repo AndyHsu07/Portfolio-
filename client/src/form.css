@@ -3,7 +3,7 @@ form{
     font-size: 1.05em;
     background-color: hsla(200, 18%, 93%, 0.92);
     height: 85vh;
-    width: 70%;
+    width: 80%;
     margin: 0 auto;
     border: 1px groove;
     border-radius: 10px;
@@ -17,7 +17,8 @@ form{
 
   form .container{
     display: inline-block;
-    margin: 10px 400px;
+    position: relative;
+    margin: 10px 250px;
 
   }
 
