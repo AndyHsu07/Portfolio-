@@ -1,3 +1,11 @@
+//import images
+// import "/img/wordgames.png";
+// import "/img/theater.jpg";
+// import "/img/realestate.jpg";
+// import "/img/doggallery.png";
+// import "/img/mysql.jpg";
+// import "/img/mssql.jpg";
+
 export default function Project(){
     return(
         <>
@@ -12,22 +20,22 @@ export default function Project(){
                 </div>
                 <div className="pj">
                     <h3>Word Guessing Game</h3>
-                    <img src="../img/wordgames.png" alt="wordguessing" />
+                    <img src="/img/wordgames.png" alt="wordguessing" />
                     <p>A Web Page that provides a word guessing game.</p>
                 </div>
                 <div className="pj">
                     <h3>Moive Lists</h3>
-                    <img src="../img/theater.jpg" alt="movietheater" />
+                    <img src="/img/theater.jpg" alt="movietheater" />
                     <p>A list of movies with filtering options</p>
                 </div>
                 <div className="pj">
                     <h3>Real Estate</h3>
-                    <img src="../img/realestate.jpg" alt="realestate" />
+                    <img src="/img/realestate.jpg" alt="realestate" />
                     <p>A website template for real estate.</p> 
                 </div>
                 <div className="pj">
                     <h3>Dog Gallery</h3>
-                    <img src="../img/doggallery.png" alt="doggallery" />
+                    <img src="/img/doggallery.png" alt="doggallery" />
                     <p>A catalog of dogs sorted by breeds.</p> 
                 </div>
                 
@@ -39,12 +47,12 @@ export default function Project(){
                 </div>
                 <div className="pj">
                     <h3>MySQL HA</h3>
-                    <img src="../img/mysql.jpg" alt="mysql" />
+                    <img src="/img/mysql.jpg" alt="mysql" />
                     <p>Implemented MySQL Innodb and NDB Cluster architecture for my clients.</p>
                 </div>
                 <div className="pj" id="project2">
                     <h3>MSSQL HA</h3>
-                    <img src="../img/mssql.jpg" alt="mssql" />
+                    <img src="/img/mssql.jpg" alt="mssql" />
                     <p>Implemented MSSQL Always on and Cluster architecture for my clients.</p>
                 </div>
             </div>
