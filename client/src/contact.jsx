@@ -38,15 +38,14 @@ export default function Contact(){
                      
                      <div className="container">
                      <label htmlFor="message">Message:</label>
-                     <textarea name="mesage"  cols={50} rows={10}></textarea>
+                     <textarea name="mesage"  cols={30} rows={10}></textarea>
                      </div>
                      <br /><br />
 
                      <div style={{textAlign: "center"}}>
                      <button type="submit" id="submit">Submit</button>
 
-                    
-
+                
                      </div>
                 </form>
 

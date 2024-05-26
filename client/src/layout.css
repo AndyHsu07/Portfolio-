@@ -18,8 +18,9 @@ header{
   }
   nav img{
     float: left;
+    margin-top: -20px;
     width: 200px;
-    height: 80px;
+    height: 100px;
     
   }
   nav .Nav{
