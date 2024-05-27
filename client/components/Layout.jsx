@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import '../src/layout.css';
 //import images
-import  '/public/img/logo.png';
+import  '/img/logo.png';
 
 
 
