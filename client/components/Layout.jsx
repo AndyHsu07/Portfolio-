@@ -11,7 +11,7 @@ export default function Layout() {
     <>
       {/* set layout as nav */}
       <nav>
-        <img src='./img/logo.png' alt="Logo"  />
+        <img src='img/logo.png' alt="Logo"  />
         <Link className="Nav" to="/">Home</Link>|  
         <Link className="Nav" to="/about">About Me</Link> |
         <Link className="Nav" to="/service">Service</Link> |
